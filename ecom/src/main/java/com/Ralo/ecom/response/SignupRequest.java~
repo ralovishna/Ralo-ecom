@@ -1,0 +1,9 @@
+package com.Ralo.ecom.response;
+
+@Data
+public class SignupRequest {
+    private String name;
+    private String email;
+    private String otp;
+//    private String password;
+}

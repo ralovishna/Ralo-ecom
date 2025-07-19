@@ -1,0 +1,11 @@
+package com.Ralo.ecom.response;
+
+public class ApiResponse {
+    public ApiResponse(String welcomeToEcom) {
+
+    }
+
+    public void setMessage(String otpSentSuccessfully) {
+
+    }
+}

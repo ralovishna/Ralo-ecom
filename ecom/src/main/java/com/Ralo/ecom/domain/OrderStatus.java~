@@ -1,0 +1,10 @@
+package com.Ralo.ecom.domain;
+
+public enum OrderStatus {
+    PENDING,
+    PLACED,
+    SHIPPED,
+    DELIVERED,
+    CANCELLED,
+    
+}

@@ -1,0 +1,8 @@
+package com.Ralo.ecom.config;
+
+import org.apache.tomcat.util.http.parser.Authorization;
+
+public class JWT_CONSTANT {
+    public static final String SECRET_KEY = "fahhtytred,huioiplkkmmmfswqmbjguegrsczfkgjp,fndge";
+    public static final String JWT_HEADER = "Authorization";
+}

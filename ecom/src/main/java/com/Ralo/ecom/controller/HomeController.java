@@ -1,0 +1,13 @@
+//package com.Ralo.ecom.controller;
+//
+//import com.Ralo.ecom.response.ApiResponse;
+//import org.springframework.web.bind.annotation.RestController;
+//
+//@RestController
+//public class HomeController {
+//
+//    @org.springframework.web.bind.annotation.GetMapping("/")
+//    public ApiResponse home() {
+//        return new ApiResponse("Welcome to Ecom");
+//    }
+//}
