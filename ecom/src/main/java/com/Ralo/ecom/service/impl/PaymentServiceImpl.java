@@ -29,8 +29,8 @@ import java.util.Set;
 public class PaymentServiceImpl implements PaymentService {
     private final PaymentOrderRepository paymentOrderRepository;
     private final OrderRepository orderRepository;
-    private final String apiKey = "rzp_test_ngP5jOb7eMzvso";
-    private final String secretKey = "deXX3BS6CUfesjbe4tYPbwCV";
+    private final String apiKey = ${RAZORPAY_KEY_ID};
+    private final String secretKey = ${RAZORPAY_KEY_SECRET};
 
     private static @NotNull JSONObject getJsonObject(User user, Long amount, Long orderId) {
         JSONObject paymentLinkRequest = new JSONObject();
